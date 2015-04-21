@@ -1,5 +1,5 @@
 class Product
-  attr_accessors :name, :price, :qty
+  attr_accessor :name, :price, :qty
   
   def initialize(name, price, qty)
     @name = name
