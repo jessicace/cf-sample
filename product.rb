@@ -14,4 +14,8 @@ class Product
   def gst
     @price * 0.1
   end
+
+  def to_s
+    "Product: #{@name}\nCost: #{sprintf("$%.2f",@price)}\nQuantity: #{@qty}"
+  end
 end
