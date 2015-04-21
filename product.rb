@@ -1,7 +1,8 @@
 class Product
-  def initialize(name, price)
+  def initialize(name, price, qty)
     @name = name
     @price = price
+    @qty = qty
   end
 
   def amount_inc_gst
